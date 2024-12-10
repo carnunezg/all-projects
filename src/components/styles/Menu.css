@@ -1,0 +1,24 @@
+.menu {
+    display: flex;
+    gap: 10px;
+    background-color: #1a1a1a;;
+  }
+  .menu a {
+      text-decoration: none;
+      display: flex;
+      color: #2196f3;
+      padding: 15px;
+      font-weight: bold;
+      border-radius: 15px;
+      -webkit-border-radius: 15px;
+      -moz-border-radius: 15px;
+      -ms-border-radius: 15px;
+      -o-border-radius: 15px;
+}
+
+  .menu a.active {
+    background-color: #2196f3;
+    color: black;
+  }
+
+ 

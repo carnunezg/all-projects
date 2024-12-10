@@ -1,0 +1,114 @@
+.container-ruleta-main {
+  background-color: #2e2b2b;
+  border-radius: 20px;
+  width: 60%;
+  margin: auto;
+  margin-top: 30px;
+  height: 50vh;
+  padding: 30px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border: 1px solid #2196f3;
+}
+.container-ruleta {
+  display: grid;
+  align-items: center;
+  margin-top: 70px;
+}
+
+.p-mensaje-loading {
+  color: #2196f3;
+  font-size: 20px;
+}
+.p-mensaje-perdiste {
+  font-size: 25px;
+  color: red;
+}
+.p-mensaje-vivo {
+  color: rgb(85, 224, 85);
+  font-size: 20px;
+}
+.container-ruleta-btn {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-auto-rows: 50px;
+  gap: 40px;
+  margin-top: 50px;
+}
+.gatillo-btn {
+  border-radius: 20px;
+  border: none;
+  background-color: #2196f3;
+  color: black;
+  border: 1px solid #1a1a1a;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.gatillo-btn:hover {
+  background-color: #3ea3f7;
+}
+
+.reiniciar-btn {
+  border-radius: 20px;
+  background-color: #2e2b2b;
+  color: #2196f3;
+  border: 1px solid #2196f3;
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.reiniciar-btn:hover {
+  background-color: #3a3737;
+}
+
+.volver-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2196f3;
+  text-align: center;
+  color: black;
+  border: 1px solid #1a1a1a;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  width: 10%;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  text-decoration: none;
+}
+
+.volver-btn:hover {
+  background-color: #1a1a1a;
+  color: #2196f3;
+  border: 1px solid #2196f3;
+}
+
+@media (max-width: 700px) {
+  .container-ruleta-main {
+    width: 80%;
+  }
+
+  .container-ruleta-btn {
+    gap: 10px;
+  }
+
+  .h1-ruleta {
+    font-size: 30px;
+  }
+
+  .p-ruleta {
+    margin-top: -20px;
+    
+  }
+}
